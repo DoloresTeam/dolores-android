@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">朵拉</string>
+
+    <!-- a -->
+    <string name="action_cancel">取消</string>
+    <string name="action_ok">确定</string>
+    <string name="action_login">登录</string>
+    <string name="action_register">注册</string>
+    <string name="action_start">开始</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_complete">完成</string>
+
+    <!-- h -->
+    <string name="hint_mobile">请输入手机号</string>
+    <string name="hint_password">请输入密码</string>
+
+    <!-- l -->
+    <string name="label_mobile">手机号</string>
+    <string name="label_password">密码</string>
+    <string name="label_mobile_or_not">没有账号？</string>
+    <string name="label_ding">消息</string>
+    <string name="label_book">联系人</string>
+    <string name="label_mine">我的</string>
+
+    <!-- m -->
+    <string name="msg_quit">再按一次退出朵拉</string>
+</resources>

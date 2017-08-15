@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/title_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/color_white"
+                android:fitsSystemWindows="true">
+
+    <ImageButton
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:src="@mipmap/ic_arrow_left"
+        android:visibility="visible"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_black2"
+        android:textSize="@dimen/big"
+        tools:text="标题"/>
+
+    <ImageButton
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        tools:src="@mipmap/ic_call"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:gravity="center"
+        android:minWidth="46dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/color_black2"
+        android:textSize="@dimen/middle"
+        android:visibility="gone"
+        tools:text="右边"
+        tools:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"/>
+
+</RelativeLayout>

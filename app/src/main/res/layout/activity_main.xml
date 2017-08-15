@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@color/color_white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/ding_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/sl_ic_ding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:paddingBottom="3dp"
+                android:text="@string/label_ding"
+                android:textColor="@color/main_menu_text_color"
+                android:textSize="@dimen/small"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/book_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/sl_ic_book"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:paddingBottom="3dp"
+                android:text="@string/label_book"
+                android:textColor="@color/main_menu_text_color"
+                android:textSize="@dimen/small"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mine_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/sl_ic_mine"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:paddingBottom="3dp"
+                android:text="@string/label_mine"
+                android:textColor="@color/main_menu_text_color"
+                android:textSize="@dimen/small"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

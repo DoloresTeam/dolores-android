@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color_white</color>
+    <color name="colorPrimaryDark">@color/color_black</color>
+    <color name="colorAccent">@color/color_green</color>
+
+    <!--背景色-->
+    <color name="bg_white">#EDEDED</color>
+    <!--内分割线-->
+    <color name="line">@color/bg_white</color>
+    <!--纯白-->
+    <color name="color_white">#ffffff</color>
+    <!--用于主色-->
+    <color name="color_red">#FF4F39</color>
+    <!--用于配色-->
+    <color name="color_blue">#4a91e3</color>
+    <color name="color_yellow">#EEBB04</color>
+    <color name="color_green">#159588</color>
+    <color name="color_orange">#FB7551</color>
+    <color name="color_pink">#C43172</color>
+
+    <!--纯黑，一般不用-->
+    <color name="color_black">#000000</color>
+    <!--用于重要文字-->
+    <color name="color_black2">#333333</color>
+    <!--稍浅一些的重要文字-->
+    <color name="color_black3">#666666</color>
+    <!--用于非重要信息-->
+    <color name="color_black4">#999999</color>
+    <!--用于hint-->
+    <color name="color_black5">#C0C0C0</color>
+
+    <!--90%白色-->
+    <color name="trans_90_color_white">#e6ffffff</color>
+    <!--60%白色-->
+    <color name="trans_60_color_white">#b2ffffff</color>
+    <!--50%白色-->
+    <color name="trans_50_color_white">#80ffffff</color>
+    <!--40%白色-->
+    <color name="trans_40_color_white">#66ffffff</color>
+    <!--25%白色-->
+    <color name="trans_25_color_white">#40ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#55ffffff</color>
+    <color name="transparent_black">#80E6E6E6</color>
+
+    <!--80%黑色-->
+    <color name="trans_80_color_black">#cc000000</color>
+    <!--70%透明-->
+    <color name="trans_70_color_black">#b2000000</color>
+    <!--60%透明-->
+    <color name="trans_60_color_black">#b2000000</color>
+    <!--50%黑色-->
+    <color name="trans_50_color_black">#80000000</color>
+    <!--40%黑色-->
+    <color name="trans_40_color_black">#66000000</color>
+    <!--30%黑色-->
+    <color name="trans_30_color_black">#4c000000</color>
+
+</resources>
+

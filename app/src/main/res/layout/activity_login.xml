@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_mobile"
+                android:textColor="@color/color_black2"
+                android:textSize="@dimen/normal"/>
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/hint_mobile"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="@color/color_black2"
+                android:textColorHint="@color/color_black5"
+                android:textSize="@dimen/normal"/>
+        </LinearLayout>
+
+        <include layout="@layout/layout_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_password"
+                android:textColor="@color/color_black2"
+                android:textSize="@dimen/normal"/>
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textColor="@color/color_black2"
+                android:textColorHint="@color/color_black5"
+                android:textSize="@dimen/normal"/>
+        </LinearLayout>
+
+        <include layout="@layout/layout_line"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sp_round2_green"
+            android:text="@string/action_ok"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/normal"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/label_mobile_or_not"
+            android:textColor="@color/color_black4"
+            android:textSize="@dimen/small"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

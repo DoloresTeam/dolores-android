@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="small">12dp</dimen>
+    <dimen name="normal">14dp</dimen>
+    <dimen name="middle">15dp</dimen>
+    <dimen name="big">16dp</dimen>
+    <dimen name="large">18dp</dimen>
+
+    <dimen name="bottom_bar_height">50dp</dimen>
+</resources>
